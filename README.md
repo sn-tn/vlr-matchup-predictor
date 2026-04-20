@@ -10,13 +10,13 @@ This repository contains the code, data, and final report for our DS 4400 projec
 ```
 .
 ├── README.md
-├── preliminary-work/            (work done to find leaky features and guide final)
 ├── notebooks/
 │   ├── 01_build_datasets.ipynb
 │   ├── 02_classical_models.ipynb
 │   ├── 03_ffnn_model.ipynb
 │   └── 04_analysis_and_figures.ipynb
 ├── outputs/                     (all generated CSVs and PNG figures)
+├── preliminary-work/            (work done to find leaky features and guide final)
 ├── report/
 │   └── DS4400_Valorant_Final_Report.docx
 └── data/
