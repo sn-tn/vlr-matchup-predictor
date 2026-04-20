@@ -1,0 +1,11 @@
+Classification Report, Task B FFNN
+==================================================
+
+              precision    recall  f1-score   support
+
+   Team2 Win       0.66      0.53      0.59      8264
+   Team1 Win       0.70      0.80      0.75     11182
+
+    accuracy                           0.69     19446
+   macro avg       0.68      0.67      0.67     19446
+weighted avg       0.68      0.69      0.68     19446

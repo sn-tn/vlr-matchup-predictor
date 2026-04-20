@@ -1,0 +1,14 @@
+{
+  "raw_rows_after_cleaning": 127804,
+  "taskA_rows": 127804,
+  "taskA_cols": 40,
+  "taskB_rows": 127804,
+  "taskB_cols": 44,
+  "train_rows": 108358,
+  "test_rows": 19446,
+  "class_balance_team1_win": 0.5789,
+  "split_date": "2024-01-01",
+  "split_note": "Temporal split: train = matches before 2024-01-01, test = 2024 matches",
+  "target": "Team1 Win",
+  "test_odds_rows_with_valid_quotes": 5341
+}
