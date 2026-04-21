@@ -46,14 +46,6 @@ We trained five models. Logistic Regression, K Nearest Neighbors, SVM, and Rando
 
 Evaluation uses six metrics, Accuracy, Precision, Recall, F1, ROC AUC, and Brier score. We also compute a corrected betting odds baseline using implied probability 1 divided by the decimal odds, on the 5,341 test maps where market odds were available.
 
-## Note on Python style and course alignment
-
-The notebooks follow the style of the course class notebooks.
-- The feedforward neural network uses the Sequential plus list of layers pattern from the class NN notebook, prints `model.summary()` after construction, and uses a Keras training history plot for loss.
-- The Random Forest uses the `max_depth`, `min_samples_leaf`, and `n_estimators` hyperparameters covered in the Decision Trees lecture.
-- The Task B feature importance analysis uses Random Forest permutation importance, connecting to the variable importance framing in the bagging and Random Forests lecture.
-- The best Task B model includes a confusion matrix and a per class classification report that mirror the diagnostic outputs used in the class Logistic Regression notebook.
-- We use `sklearn.pipeline.Pipeline` and `sklearn.compose.ColumnTransformer` to chain imputation, scaling, and one hot encoding. This is the pattern recommended in the scikit learn documentation for mixed numeric and categorical data and is used here because our dataset has missing values and a categorical Map column, unlike the class demo datasets.
 
 ## Final results summary
 
